@@ -4,7 +4,7 @@
   "description": "jartexNetwork",
   "author": "usserwout",
   "icon": "https://i.imgur.com/ki0ON6y.png",
-  "updateUrl": "",
+  "updateUrl": "https://raw.githubusercontent.com/usserwout/JNbot-updater/main/jartexnetwork.json",
   "allowAutoUpdate": true,
   "sections": {
     "gkits": {
