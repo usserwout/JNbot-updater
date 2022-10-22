@@ -4,6 +4,11 @@
       "name": "JartexNetwork",
       "icon": "https://i.imgur.com/ki0ON6y.png",
       "url": "https://raw.githubusercontent.com/usserwout/JNbot-updater/main/jartexnetwork.json"
+    },
+    {
+      "name": "PikaNetwork",
+      "icon": "https://pika-network.net/styles/logo.png",
+      "url": ""
     }
   ]
 }
