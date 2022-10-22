@@ -1,0 +1,540 @@
+{
+  "version": 1,
+  "name": "jartexNetwork",
+  "description": "jartexNetwork",
+  "author": "usserwout",
+  "icon": "https://i.imgur.com/ki0ON6y.png",
+  "updateUrl": "",
+  "allowAutoUpdate": true,
+  "sections": {
+    "gkits": {
+      "visible": true
+    },
+    "bots": {
+      "visible": true
+    },
+    "plugins": {
+      "visible": true
+    },
+    "other": {
+      "visible": true
+    }
+  },
+  "scripts": {
+    "gkit collector": {
+      "visible": true
+    },
+    "gkit upgrader": {
+      "visible": true
+    },
+    "gkit opener": {
+      "visible": true
+    },
+    "kit collector": {
+      "visible": true
+    }
+  },
+  "data": {
+    "serverIp": [
+      "proxy001.jartexsys.net",
+      "proxy002.jartexsys.net",
+      "proxy003.jartexsys.net",
+      "proxy004.jartexsys.net",
+      "proxy005.jartexsys.net",
+      "proxy006.jartexsys.net ",
+      "proxy007.jartexsys.net",
+      "mcgamer.zone",
+      "jartex.fun",
+      "play.jartexnetwork.net",
+      "play.jartexnetwork.com",
+      "top.jartex.fun"
+    ],
+    "store": {
+      "skyblockdream": {
+        "ranks": {
+          "skydonor": {
+            "price": 10,
+            "color": "#00AA00"
+          },
+          "skyvip": {
+            "price": 20,
+            "color": "#55FFFF"
+          },
+          "skywarrior": {
+            "price": 40,
+            "color": "#AA00AA"
+          },
+          "skychamp": {
+            "price": 65,
+            "color": "#00AAAA"
+          },
+          "skylord": {
+            "price": 100,
+            "color": "#FFFF55"
+          },
+          "skygod": {
+            "price": 200,
+            "color": "#ed5053"
+          }
+        },
+        "gkits": {
+          "slayer": 65,
+          "boosters": 60,
+          "treasure": 65,
+          "spawner": 60,
+          "grinder": 60,
+          "special": 40,
+          "god": 40,
+          "dust": 30,
+          "keys": 45,
+          "axeman": 30,
+          "scrollsv2": 25,
+          "scrolls": 18,
+          "custom enchants": 20,
+          "pvping": 0,
+          "mob eggs": 0,
+          "builder": 0,
+          "tools": 0,
+          "halloween": 0,
+          "thank giving": 0,
+          "christmas": 0,
+          "new years": 0,
+          "valentines": 0,
+          "santa": 0,
+          "summer": 75,
+          "slaughter": 0
+        }
+      },
+      "skyblockfantasy": {
+        "ranks": {
+          "skydonor": {
+            "price": 10,
+            "color": "#52ab0a"
+          },
+          "skyvip": {
+            "price": 20,
+            "color": "#55FFFF"
+          },
+          "skywarrior": {
+            "price": 40,
+            "color": "#AA00AA"
+          },
+          "skychamp": {
+            "price": 65,
+            "color": "#00AAAA"
+          },
+          "skylord": {
+            "price": 100,
+            "color": "#FFFF55"
+          },
+          "skygod": {
+            "price": 200,
+            "color": "#ed5053"
+          }
+        },
+        "gkits": {
+          "treasure": 60,
+          "grinding": 40,
+          "keys": 45,
+          "special": 40,
+          "spawner": 40,
+          "pvping": 25,
+          "kits": 20,
+          "mcmmo": 15,
+          "halloween": 0,
+          "haunted": 0
+        }
+      },
+      "prison": {
+        "ranks": {
+          "thug": {
+            "price": 10,
+            "color": "#00AA00"
+          },
+          "criminal": {
+            "price": 20,
+            "color": "#FF5555"
+          },
+          "blackhat": {
+            "price": 40,
+            "color": "#ed5053"
+          },
+          "lunatic": {
+            "price": 65,
+            "color": "#FF55FF"
+          },
+          "murderer": {
+            "price": 100,
+            "color": "#AA0000"
+          },
+          "godfather": {
+            "price": 200,
+            "color": "#FFFF55"
+          }
+        },
+        "gkits": {
+          "boosters": 60,
+          "treasure": 60,
+          "explosive": 50,
+          "keys": 45,
+          "pvping": 25,
+          "kits": 20,
+          "scrolls": 18,
+          "santa": 0,
+          "druglord": 0,
+          "brawler": 40,
+          "construction": 50,
+          "summer": 0,
+          "museum": 0
+        }
+      },
+      "survival": {
+        "ranks": {
+          "knight": {
+            "price": 10,
+            "color": "#00AAAA"
+          },
+          "lord": {
+            "price": 20,
+            "color": "#FFFF55"
+          },
+          "baron": {
+            "price": 50,
+            "color": "#00AA00"
+          },
+          "paladin": {
+            "price": 80,
+            "color": "#AA00AA"
+          },
+          "duke": {
+            "price": 120,
+            "color": "#55FFFF"
+          },
+          "king": {
+            "price": 200,
+            "color": "#FFAA00"
+          }
+        },
+        "gkits": {
+          "keys": 45,
+          "grinder": 40,
+          "enchants": 35,
+          "miner": 35,
+          "tools": 35,
+          "blocks": 20
+        }
+      },
+      "kitpvp": {
+        "ranks": {
+          "warrior": {
+            "price": 10,
+            "color": "#00AA00"
+          },
+          "gladiator": {
+            "price": 25,
+            "color": "#FF55FF"
+          },
+          "hero": {
+            "price": 50,
+            "color": "#AA00AA"
+          },
+          "immortal": {
+            "price": 100,
+            "color": "#FFFF55"
+          },
+          "celestial": {
+            "price": 200,
+            "color": "#55FFFF"
+          }
+        },
+        "gkits": {
+          "keys": 45,
+          "potions": 30,
+          "summer": 0,
+          "boosters": 0,
+          "christmas": 0,
+          "booster": 60
+        }
+      },
+      "creative": {
+        "ranks": {
+          "designer": {
+            "price": 5,
+            "color": "#00AA00"
+          },
+          "creator": {
+            "price": 15,
+            "color": "#55FFFF"
+          },
+          "architect": {
+            "price": 30,
+            "color": "#FFFF55"
+          }
+        },
+        "gkits": {}
+      },
+      "practice": {
+        "ranks": {
+          "hero": {
+            "price": 15,
+            "color": "#00AA00"
+          },
+          "mythic": {
+            "price": 35,
+            "color": "#FF5555"
+          },
+          "zeus": {
+            "price": 65,
+            "color": "#55FFFF"
+          }
+        },
+        "gkits": {}
+      },
+      "minigames": {
+        "ranks": {
+          "iron": {
+            "price": 10,
+            "color": "#FFFFFF"
+          },
+          "gold": {
+            "price": 30,
+            "color": "#FF5555"
+          },
+          "diamond": {
+            "price": 75,
+            "color": "#55FFFF"
+          }
+        },
+        "gkits": {}
+      },
+      "factions immortal": {
+        "ranks": {
+          "vip": {
+            "price": 10,
+            "color": "#00AA00"
+          },
+          "premium": {
+            "price": 20,
+            "color": "#FFFF55"
+          },
+          "elite": {
+            "price": 40,
+            "color": "#00AAAA"
+          },
+          "champion": {
+            "price": 65,
+            "color": "#AA00AA"
+          },
+          "spartan": {
+            "price": 100,
+            "color": "#FF55FF"
+          },
+          "titan": {
+            "price": 150,
+            "color": "#FF5555"
+          },
+          "god": {
+            "price": 250,
+            "color": "#55FFFF"
+          },
+          "immortal": {
+            "price": 400,
+            "color": "#FFFF55"
+          }
+        },
+        "gkits": {
+          "keys": 0,
+          "scrolls": 0,
+          "scrollsv2": 0,
+          "custom enchants": 0,
+          "spawner": 0,
+          "axeman": 0,
+          "halloween": 0,
+          "dust": 0,
+          "christmas": 0,
+          "new years": 0,
+          "valentines": 0,
+          "grinder": 0,
+          "treasure": 0,
+          "santa": 0,
+          "summer": 0,
+          "raider": 0,
+          "archer": 0,
+          "god apples": 0,
+          "special": 0,
+          "underwater": 0,
+          "boosters": 0
+        }
+      }
+    },
+    "gamemodes": [
+      {
+        "name": "SkyblockDream",
+        "command": [
+          "/skyblock"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": true
+      },
+      {
+        "name": "SkyblockFantasy",
+        "command": [
+          "/skyblock"
+        ],
+        "hasResourcePack": false,
+        "version": "1.14.0",
+        "allowGifting": false
+      },
+      {
+        "name": "Factions Immortal",
+        "command": [
+          "/server",
+          "/factions"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": true
+      },
+      {
+        "name": "Prison",
+        "command": [
+          "/server",
+          "/prison"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": true
+      },
+      {
+        "name": "Survival",
+        "command": [
+          "/server"
+        ],
+        "hasResourcePack": true,
+        "version": "1.14.0",
+        "allowGifting": true
+      },
+      {
+        "name": "KitPvP",
+        "command": [
+          "/server",
+          "/kitpvp"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": false
+      },
+      {
+        "name": "creative",
+        "command": [
+          "/server",
+          "/creative"
+        ],
+        "hasResourcePack": true,
+        "version": "1.14.0",
+        "allowGifting": false
+      },
+      {
+        "name": "SkyWars",
+        "command": [
+          "/server",
+          "/SkyWars"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": false
+      },
+      {
+        "name": "BedWars",
+        "command": [
+          "/server",
+          "/BedWars"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": false
+      },
+      {
+        "name": "The bridge",
+        "command": [
+          "/server"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": false
+      },
+      {
+        "name": "Practice",
+        "command": [
+          "/server"
+        ],
+        "hasResourcePack": false,
+        "version": "1.8.0",
+        "allowGifting": false
+      }
+    ],
+    "versions": [
+      "1.8.9",
+      "1.9.4",
+      "1.10.2",
+      "1.11.2",
+      "1.12.2",
+      "1.13.2",
+      "1.14.4",
+      "1.15.2",
+      "1.16.5",
+      "1.17.1",
+      "1.18.2"
+    ],
+    "staff": {
+      "Trial": "rgb(50, 205, 50)",
+      "Helper": "rgb(0, 170, 0)",
+      "Jr.Mod": "rgb(29, 206, 213)",
+      "Moderator": "rgb(0, 170, 170)",
+      "Sr.Mod": "rgb(85, 85, 255)",
+      "Developer": "rgb(255, 204, 0)",
+      "Manager": "rgb(255, 36, 43)",
+      "Owner": "rgb(255, 140, 0)"
+    },
+    "extra": {
+      "gkitGamemodes": [
+        "SkyblockDream",
+        "SkyblockFantasy",
+        "Factions Immortal",
+        "Prison",
+        "Survival",
+        "KitPvP"
+      ],
+      "kits": {
+        "SkyblockDream": [
+          "pvp kit",
+          "once "
+        ],
+        "SkyblockFantasy": [
+          "pvp kit",
+          "once "
+        ],
+        "Prison": [
+          "once ",
+          "emerald kit",
+          "diamond kit",
+          "gold kit",
+          "iron kit",
+          "coal kit",
+          "autominer",
+          "once",
+          "starter",
+          "pvp kit",
+          "food kit"
+        ],
+        "Factions Immortal": [
+          "base kit",
+          "cannon kit",
+          "potions kit",
+          "once "
+        ]
+      }
+    }
+  }
+}
