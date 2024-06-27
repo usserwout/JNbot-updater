@@ -1,1 +1,2160 @@
-{}
+{
+  "version": "1.0.0",
+  "jartexnetwork": {
+    "id": "jartexnetwork",
+    "gamemodes": {
+      "skyblockdream": {
+        "name": "SkyblockDream",
+        "aliases": [
+          "sbd"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "gkits": {
+          "keys": {
+            "name": "Crate Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "minion": {
+            "name": "Minion",
+            "slot": 11,
+            "price": 60
+          },
+          "minionboosters": {
+            "name": "Minion Boosters",
+            "slot": 12,
+            "price": 80
+          },
+          "ores": {
+            "name": "Ores",
+            "slot": 13,
+            "price": 90
+          },
+          "scrolls": {
+            "name": "Scrolls",
+            "slot": 14,
+            "price": 18
+          },
+          "scrollsv2": {
+            "name": "ScrollsV2",
+            "slot": 15,
+            "price": 25
+          },
+          "spawner": {
+            "name": "Spawner",
+            "slot": 16,
+            "price": 60
+          },
+          "god": {
+            "name": "God",
+            "slot": 19,
+            "price": 40
+          },
+          "axeman": {
+            "name": "Axeman",
+            "slot": 20,
+            "price": 30
+          },
+          "newyears": {
+            "name": "New Years",
+            "slot": 21,
+            "price": 0
+          },
+          "customenchants": {
+            "name": "Custom Enchants",
+            "slot": 22,
+            "price": 0
+          },
+          "dust": {
+            "name": "Dust",
+            "slot": 23,
+            "price": 0
+          },
+          "grinder": {
+            "name": "Grinder",
+            "slot": 24,
+            "price": 60
+          },
+          "treasure": {
+            "name": "Treasure",
+            "slot": 25,
+            "price": 65
+          },
+          "special": {
+            "name": "Special",
+            "slot": 28,
+            "price": 40
+          },
+          "pvping": {
+            "name": "Pvping",
+            "slot": 29,
+            "price": 25
+          },
+          "christmas": {
+            "name": "Christmas",
+            "slot": 30,
+            "price": 0
+          },
+          "santa": {
+            "name": "Santa",
+            "slot": 31,
+            "price": 0
+          },
+          "valentines": {
+            "name": "Valentines",
+            "slot": 32,
+            "price": 0
+          },
+          "slayer": {
+            "name": "Slayer",
+            "slot": 33,
+            "price": 0
+          },
+          "halloween": {
+            "name": "Halloween",
+            "slot": 34,
+            "price": 0
+          },
+          "thanksgiving": {
+            "name": "ThanksGiving",
+            "slot": 37,
+            "price": 0
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 38,
+            "price": 0
+          },
+          "boosters": {
+            "name": "Boosters",
+            "slot": 39,
+            "price": 60
+          },
+          "slaughter": {
+            "name": "Slaughter",
+            "slot": 40,
+            "price": 60
+          },
+          "golden": {
+            "name": "Golden",
+            "slot": 41,
+            "price": 65
+          }
+        },
+        "kits": {
+          "starter": {
+            "name": "Starter Kit",
+            "slot": 11
+          },
+          "pvp": {
+            "name": "PvP Kit",
+            "slot": 12
+          },
+          "help": {
+            "name": "Help Kit",
+            "slot": 14
+          },
+          "skydonor": {
+            "name": "SkyDonor Kit",
+            "slot": 28
+          },
+          "skyvip": {
+            "name": "SkyVIP Kit",
+            "slot": 29
+          },
+          "skywarrior": {
+            "name": "SkyWarrior Kit",
+            "slot": 30
+          },
+          "skychamp": {
+            "name": "SkyChamp Kit",
+            "slot": 31
+          },
+          "skylord": {
+            "name": "SkyLord Kit",
+            "slot": 32
+          },
+          "skygod": {
+            "name": "SkyGod Kit",
+            "slot": 33
+          },
+          "skyking": {
+            "name": "SkyKing Kit",
+            "slot": 34
+          },
+          "skydonoronce": {
+            "name": "SkyDonor Once Kit",
+            "slot": 37
+          },
+          "skyviponce": {
+            "name": "SkyVIP Once Kit",
+            "slot": 38
+          },
+          "skywarrioronce": {
+            "name": "SkyWarrior Once Kit",
+            "slot": 39
+          },
+          "skychamponce": {
+            "name": "SkyChamp Once Kit",
+            "slot": 40
+          },
+          "skylordonce": {
+            "name": "SkyLord Once Kit",
+            "slot": 41
+          },
+          "skygodonce": {
+            "name": "SkyGod Once Kit",
+            "slot": 42
+          },
+          "skykingonce": {
+            "name": "SkyKing Once Kit",
+            "slot": 43
+          }
+        },
+        "ranks": {
+          "skydonor": {
+            "name": "skydonor",
+            "price": 10,
+            "color": "#00AA00"
+          },
+          "skyvip": {
+            "name": "skyvip",
+            "price": 20,
+            "color": "#55FFFF"
+          },
+          "skywarrior": {
+            "name": "skywarrior",
+            "price": 40,
+            "color": "#AA00AA"
+          },
+          "skychamp": {
+            "name": "skychamp",
+            "price": 65,
+            "color": "#00AAAA"
+          },
+          "skylord": {
+            "name": "skylord",
+            "price": 100,
+            "color": "#FFFF55"
+          },
+          "skygod": {
+            "name": "skygod",
+            "price": 200,
+            "color": "#55FFFF"
+          }
+        }
+      },
+      "skyblockfantasy": {
+        "name": "SkyblockFantasy",
+        "aliases": [
+          "sbf"
+        ],
+        "features": {
+          "gifting": false,
+          "tradeWithKeys": false,
+          "trading": false,
+          "resourcePack": true
+        },
+        "minVersion": "1.16.0",
+        "gkits": {
+          "keys": {
+            "name": "Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "pvping": {
+            "name": "Pvping",
+            "slot": 11,
+            "price": 25
+          },
+          "grinding": {
+            "name": "Grinding",
+            "slot": 12,
+            "price": 0
+          },
+          "special": {
+            "name": "Special",
+            "slot": 13,
+            "price": 40
+          },
+          "spawner": {
+            "name": "Spawner",
+            "slot": 14,
+            "price": 40
+          },
+          "mcmmo": {
+            "name": "MCMMO",
+            "slot": 15,
+            "price": 15
+          },
+          "kits": {
+            "name": "Kits",
+            "slot": 16,
+            "price": 20
+          },
+          "treasure": {
+            "name": "Treasure",
+            "slot": 19,
+            "price": 60
+          },
+          "halloween": {
+            "name": "Halloween",
+            "slot": 20,
+            "price": 0
+          }
+        },
+        "kits": {
+          "allplayers": {
+            "name": "All Player Kits",
+            "slot": 19
+          },
+          "allskydonorkits": {
+            "name": "All Skydonor kits",
+            "slot": 21
+          },
+          "allskyvips": {
+            "name": "All SkyVip Kits",
+            "slot": 24
+          },
+          "allskywarriors": {
+            "name": "All SkyWarrior Kits",
+            "slot": 26
+          },
+          "allskychamps": {
+            "name": "All SkyChamp Kits",
+            "slot": 37
+          },
+          "allskylords": {
+            "name": "All SkyLord Kits",
+            "slot": 39
+          },
+          "allskygods": {
+            "name": "All SkyGod Kits",
+            "slot": 42
+          }
+        },
+        "ranks": {
+          "skydonor": {
+            "name": "skydonor",
+            "price": 10,
+            "color": "#FF5555"
+          },
+          "skyvip": {
+            "name": "skyvip",
+            "price": 20,
+            "color": "#FF5555"
+          },
+          "skywarrior": {
+            "name": "skywarrior",
+            "price": 40,
+            "color": "#FF5555"
+          },
+          "skychamp": {
+            "name": "skychamp",
+            "price": 65,
+            "color": "#FF5555"
+          },
+          "skylord": {
+            "name": "skylord",
+            "price": 100,
+            "color": "#FF5555"
+          },
+          "skygod": {
+            "name": "skygod",
+            "price": 200,
+            "color": "#FF5555"
+          }
+        }
+      },
+      "factionsimmortal": {
+        "name": "FactionsImmortal",
+        "aliases": [
+          "factions",
+          "factions immortal"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "ranks": {
+          "vip": {
+            "name": "vip",
+            "price": 10,
+            "color": "#55FF55"
+          },
+          "premium": {
+            "name": "premium",
+            "price": 20,
+            "color": "#FFFF55"
+          },
+          "elite": {
+            "name": "elite",
+            "price": 40,
+            "color": "#00AAAA"
+          },
+          "champion": {
+            "name": "champion",
+            "price": 65,
+            "color": "#AA00AA"
+          },
+          "spartan": {
+            "name": "spartan",
+            "price": 100,
+            "color": "#FF55FF"
+          },
+          "titan": {
+            "name": "titan",
+            "price": 150,
+            "color": "#FF5555"
+          },
+          "god": {
+            "name": "god",
+            "price": 250,
+            "color": "#55FF55"
+          },
+          "immortal": {
+            "name": "immortal",
+            "price": 400,
+            "color": "#FFAA00"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "Crate Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "spawner": {
+            "name": "Spawner",
+            "slot": 11,
+            "price": 60
+          },
+          "scrolls": {
+            "name": "Scrolls",
+            "slot": 12,
+            "price": 18
+          },
+          "scrollsv2": {
+            "name": "ScrollsV2",
+            "slot": 13,
+            "price": 25
+          },
+          "customenchants": {
+            "name": "Custom Enchants",
+            "slot": 14,
+            "price": 15
+          },
+          "dust": {
+            "name": "Dust",
+            "slot": 15,
+            "price": 30
+          },
+          "grinder": {
+            "name": "Grinder",
+            "slot": 16,
+            "price": 60
+          },
+          "god": {
+            "name": "God",
+            "slot": 19,
+            "price": 40
+          },
+          "axeman": {
+            "name": "Axeman",
+            "slot": 20,
+            "price": 30
+          },
+          "archer": {
+            "name": "Archer",
+            "slot": 21,
+            "price": 20
+          },
+          "godapples": {
+            "name": "God Apples",
+            "slot": 22,
+            "price": 35
+          },
+          "treasure": {
+            "name": "Treasure",
+            "slot": 23,
+            "price": 65
+          },
+          "special": {
+            "name": "Special",
+            "slot": 24,
+            "price": 65
+          },
+          "raider": {
+            "name": "Raider",
+            "slot": 25,
+            "price": 20
+          },
+          "valentines": {
+            "name": "Valentines",
+            "slot": 28,
+            "price": 0
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 29,
+            "price": 0
+          },
+          "christmas": {
+            "name": "Christmas",
+            "slot": 30,
+            "price": 0
+          },
+          "santa": {
+            "name": "Santa",
+            "slot": 31,
+            "price": 0
+          },
+          "newyears": {
+            "name": "NewYears",
+            "slot": 32,
+            "price": 0
+          },
+          "underwater": {
+            "name": "Underwater",
+            "slot": 33,
+            "price": 45
+          },
+          "boosters": {
+            "name": "Boosters",
+            "slot": 34,
+            "price": 60
+          },
+          "aquatic": {
+            "name": "Aquatic",
+            "slot": 37,
+            "price": 50
+          },
+          "vanguardspecialset": {
+            "name": "Vanguard SpecialSet",
+            "slot": 38,
+            "price": 95
+          }
+        },
+        "kits": {
+          "starter": {
+            "name": "Starter Kit",
+            "slot": 11
+          },
+          "pvp": {
+            "name": "PvP Kit",
+            "slot": 12
+          },
+          "food": {
+            "name": "Food Kit",
+            "slot": 14
+          },
+          "weekly": {
+            "name": "Weekly Kit",
+            "slot": 15
+          },
+          "vip": {
+            "name": "Vip Kit",
+            "slot": 27
+          },
+          "premium": {
+            "name": "Premium Kit",
+            "slot": 28
+          },
+          "elite": {
+            "name": "Elite Kit",
+            "slot": 29
+          },
+          "champion": {
+            "name": "Champion Kit",
+            "slot": 30
+          },
+          "spartan": {
+            "name": "Spartan Kit",
+            "slot": 31
+          },
+          "titan": {
+            "name": "Titan Kit",
+            "slot": 32
+          },
+          "god": {
+            "name": "God Kit",
+            "slot": 33
+          },
+          "immortal": {
+            "name": "Immortal Kit",
+            "slot": 34
+          },
+          "eternal": {
+            "name": "Eternal Kit",
+            "slot": 35
+          },
+          "viponce": {
+            "name": "Vip Once Kit",
+            "slot": 36
+          },
+          "premiumonce": {
+            "name": "Premium Once Kit",
+            "slot": 37
+          },
+          "eliteonce": {
+            "name": "Elite Once Kit",
+            "slot": 38
+          },
+          "championonce": {
+            "name": "Champion Once Kit",
+            "slot": 39
+          },
+          "spartanonce": {
+            "name": "Spartan Once Kit",
+            "slot": 40
+          },
+          "titanonce": {
+            "name": "Titan Once Kit",
+            "slot": 41
+          },
+          "godonce": {
+            "name": "God Once Kit",
+            "slot": 42
+          },
+          "immortalonce": {
+            "name": "Immortal Once Kit",
+            "slot": 43
+          },
+          "eternalonce": {
+            "name": "Eternal Once Kit",
+            "slot": 44
+          }
+        }
+      },
+      "prison": {
+        "name": "Prison",
+        "aliases": [
+          "prison classic",
+          "opprison"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "ranks": {
+          "thug": {
+            "name": "thug",
+            "price": 10,
+            "color": "#55FF55"
+          },
+          "criminal": {
+            "name": "criminal",
+            "price": 20,
+            "color": "#55FFFF"
+          },
+          "blackhat": {
+            "name": "blackhat",
+            "price": 40,
+            "color": "#FF5555"
+          },
+          "lunatic": {
+            "name": "lunatic",
+            "price": 65,
+            "color": "#FF55FF"
+          },
+          "murderer": {
+            "name": "murderer",
+            "price": 100,
+            "color": "#AA0000"
+          },
+          "godfather": {
+            "name": "godfather",
+            "price": 200,
+            "color": "#FFFF55"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "CrateKeys",
+            "slot": 10,
+            "price": 45
+          },
+          "scrolls": {
+            "name": "Scrolls",
+            "slot": 11,
+            "price": 18
+          },
+          "kits": {
+            "name": "Kits",
+            "slot": 12,
+            "price": 20
+          },
+          "explosive": {
+            "name": "Explosive",
+            "slot": 13,
+            "price": 50
+          },
+          "pvping": {
+            "name": "Pvping",
+            "slot": 14,
+            "price": 25
+          },
+          "treasure": {
+            "name": "Treasure",
+            "slot": 15,
+            "price": 60
+          },
+          "fruitlord": {
+            "name": "FruitLord",
+            "slot": 16,
+            "price": 35
+          },
+          "santa": {
+            "name": "Santa",
+            "slot": 19,
+            "price": 0
+          },
+          "boosters": {
+            "name": "Boosters",
+            "slot": 20,
+            "price": 60
+          },
+          "brawler": {
+            "name": "Brawler",
+            "slot": 21,
+            "price": 40
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 22,
+            "price": 0
+          },
+          "pickaxe": {
+            "name": "Pickaxe",
+            "slot": 23,
+            "price": 60
+          },
+          "undercover": {
+            "name": "Undercover",
+            "slot": 24,
+            "price": 40
+          }
+        },
+        "kits": {
+          "starter": {
+            "name": "Starter Kit",
+            "slot": 12
+          },
+          "pvp": {
+            "name": "PvP Kit",
+            "slot": 13
+          },
+          "food": {
+            "name": "Food Kit",
+            "slot": 14
+          },
+          "thug": {
+            "name": "Thug Kit",
+            "slot": 28
+          },
+          "criminal": {
+            "name": "Criminal Kit",
+            "slot": 29
+          },
+          "blackhat": {
+            "name": "Blackhat Kit",
+            "slot": 30
+          },
+          "lunatic": {
+            "name": "Lunatic Kit",
+            "slot": 31
+          },
+          "murderer": {
+            "name": "Murderer Kit",
+            "slot": 32
+          },
+          "godfather": {
+            "name": "GodFather Kit",
+            "slot": 33
+          },
+          "kingpin": {
+            "name": "Kingpin Kit",
+            "slot": 34
+          },
+          "thugonce": {
+            "name": "Thug Once Kit",
+            "slot": 37
+          },
+          "criminalonce": {
+            "name": "Criminal Once Kit",
+            "slot": 38
+          },
+          "blackhatonce": {
+            "name": "Blackhat Once Kit",
+            "slot": 39
+          },
+          "lunaticonce": {
+            "name": "Lunatic Once Kit",
+            "slot": 40
+          },
+          "murdereronce": {
+            "name": "Murderer Once Kit",
+            "slot": 41
+          },
+          "godfatheronce": {
+            "name": "GodFather Once Kit",
+            "slot": 42
+          },
+          "kingpinonce": {
+            "name": "Kingpin Once Kit",
+            "slot": 43
+          }
+        }
+      },
+      "kitpvp": {
+        "name": "KitPvP",
+        "aliases": [
+          "pvp",
+          "kit pvp"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": true,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "ranks": {
+          "warrior": {
+            "name": "warrior",
+            "price": 10,
+            "color": "#55FF55"
+          },
+          "gladiator": {
+            "name": "gladiator",
+            "price": 25,
+            "color": "#FF55FF"
+          },
+          "hero": {
+            "name": "hero",
+            "price": 50,
+            "color": "#AA00AA"
+          },
+          "immortal": {
+            "name": "immortal",
+            "price": 100,
+            "color": "#FFFF55"
+          },
+          "celestial": {
+            "name": "celestial",
+            "price": 200,
+            "color": "#55FFFF"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "Crate Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "potions": {
+            "name": "Potions",
+            "slot": 11,
+            "price": 30
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 12,
+            "price": 0
+          },
+          "christmas": {
+            "name": "Christmas",
+            "slot": 13,
+            "price": 0
+          },
+          "mystery": {
+            "name": "Mystery",
+            "slot": 14,
+            "price": 65
+          },
+          "demon": {
+            "name": "Demon",
+            "slot": 15,
+            "price": 0
+          },
+          "damagespecialset": {
+            "name": "Damage SpecialSet",
+            "slot": 16,
+            "price": 85
+          },
+          "decreasespecialset": {
+            "name": "Decrease SpecialSet",
+            "slot": 19,
+            "price": 85
+          },
+          "vanguardspecialset": {
+            "name": "Vanguard SpecialSet",
+            "slot": 20,
+            "price": 95
+          }
+        },
+        "kits": {
+          "knight": {
+            "name": "Knight Kit",
+            "slot": 11
+          },
+          "archer": {
+            "name": "Archer Kit",
+            "slot": 12
+          },
+          "viking": {
+            "name": "Viking Kit",
+            "slot": 13
+          },
+          "weekly": {
+            "name": "Weekly Kit",
+            "slot": 20
+          },
+          "monthly": {
+            "name": "Monthly Kit",
+            "slot": 21
+          },
+          "warrior": {
+            "name": "Warrior Kit",
+            "slot": 29
+          },
+          "gladiator": {
+            "name": "Gladiator Kit",
+            "slot": 30
+          },
+          "hero": {
+            "name": "Hero Kit",
+            "slot": 31
+          },
+          "immortal": {
+            "name": "Immortal Kit",
+            "slot": 32
+          },
+          "celestial": {
+            "name": "Celestial Kit",
+            "slot": 33
+          },
+          "divine": {
+            "name": "Divine Kit",
+            "slot": 34
+          }
+        }
+      },
+      "lifesteal": {
+        "name": "Lifesteal",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": true
+        },
+        "minVersion": "1.18.0",
+        "ranks": {
+          "ranger": {
+            "name": "ranger",
+            "price": 10,
+            "color": "#FF5555"
+          },
+          "assassin": {
+            "name": "assassin",
+            "price": 25,
+            "color": "#FF5555"
+          },
+          "warlock": {
+            "name": "warlock",
+            "price": 50,
+            "color": "#FF5555"
+          },
+          "sorcerer": {
+            "name": "sorcerer",
+            "price": 75,
+            "color": "#FF5555"
+          },
+          "templar": {
+            "name": "templar",
+            "price": 125,
+            "color": "#FF5555"
+          },
+          "dreadlord": {
+            "name": "dreadlord",
+            "price": 250,
+            "color": "#FF5555"
+          }
+        },
+        "gkits": {
+          "halloween": {
+            "name": "Halloween",
+            "slot": 10,
+            "price": 0
+          },
+          "viking": {
+            "name": "Viking",
+            "slot": 11,
+            "price": 0
+          }
+        },
+        "kits": {}
+      },
+      "survival": {
+        "name": "Survival",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.18.0",
+        "ranks": {
+          "knightrank": {
+            "name": "Knight Rank",
+            "price": 20,
+            "color": "#FF5555"
+          },
+          "lordrank": {
+            "name": "Lord Rank",
+            "price": 50,
+            "color": "#FF5555"
+          },
+          "baronrank": {
+            "name": "Baron Rank",
+            "price": 100,
+            "color": "#FF5555"
+          },
+          "paladinrank": {
+            "name": "Paladin Rank",
+            "price": 150,
+            "color": "#FF5555"
+          },
+          "dukerank": {
+            "name": "Duke Rank",
+            "price": 250,
+            "color": "#FF5555"
+          },
+          "kingrank": {
+            "name": "King Rank",
+            "price": 400,
+            "color": "#FF5555"
+          }
+        },
+        "gkits": {
+          "toolsmith": {
+            "name": "Toolsmith",
+            "slot": 10,
+            "price": 35
+          },
+          "miner": {
+            "name": "Miner",
+            "slot": 11,
+            "price": 35
+          },
+          "enchants": {
+            "name": "Enchants",
+            "slot": 12,
+            "price": 35
+          },
+          "grinder": {
+            "name": "Grinder",
+            "slot": 13,
+            "price": 0
+          },
+          "blocks": {
+            "name": "Blocks",
+            "slot": 14,
+            "price": 0
+          },
+          "valentines": {
+            "name": "Valentines",
+            "slot": 15,
+            "price": 0
+          },
+          "easter": {
+            "name": "Easter",
+            "slot": 16,
+            "price": 0
+          }
+        },
+        "kits": {
+          "starter": {
+            "name": "Starter Kit",
+            "slot": 13
+          },
+          "knight": {
+            "name": "Knight Kit",
+            "slot": 28
+          },
+          "lord": {
+            "name": "Lord Kit",
+            "slot": 29
+          },
+          "baron": {
+            "name": "Baron Kit",
+            "slot": 30
+          },
+          "paladin": {
+            "name": "Paladin Kit",
+            "slot": 31
+          },
+          "duke": {
+            "name": "Duke Kit",
+            "slot": 32
+          },
+          "king": {
+            "name": "King Kit",
+            "slot": 33
+          },
+          "emperor": {
+            "name": "Emperor Kit",
+            "slot": 34
+          },
+          "knightonce": {
+            "name": "Knight Once Kit",
+            "slot": 37
+          },
+          "lordonce": {
+            "name": "Lord Once Kit",
+            "slot": 38
+          },
+          "barononce": {
+            "name": "Baron Once Kit",
+            "slot": 39
+          },
+          "paladinonce": {
+            "name": "Paladin Once Kit",
+            "slot": 40
+          },
+          "dukeonce": {
+            "name": "Duke Once Kit",
+            "slot": 41
+          },
+          "kingonce": {
+            "name": "King Once Kit",
+            "slot": 42
+          },
+          "emperoronce": {
+            "name": "Emperor Once Kit",
+            "slot": 43
+          }
+        }
+      },
+      "bedwars": {
+        "name": "Bedwars",
+        "aliases": [],
+        "features": {
+          "gifting": false,
+          "tradeWithKeys": false,
+          "trading": false,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "ranks": {},
+        "gkits": {},
+        "kits": {}
+      },
+      "gens": {
+        "name": "Gens",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": false,
+          "resourcePack": true
+        },
+        "minVersion": "1.18.0",
+        "ranks": {},
+        "gkits": {},
+        "kits": {}
+      },
+      "thebridge": {
+        "name": "The bridge",
+        "aliases": [
+          "thebridge",
+          "bridge"
+        ],
+        "features": {
+          "gifting": false,
+          "tradeWithKeys": false,
+          "trading": false,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "ranks": {},
+        "gkits": {},
+        "kits": {}
+      }
+    },
+    "scripts": [
+      {
+        "id": "gkit collector",
+        "name": "Gkit collector"
+      },
+      {
+        "id": "gkit upgrader",
+        "name": "Gkit upgrader"
+      },
+      {
+        "id": "kit collector",
+        "name": "Kit collector"
+      },
+      {
+        "id": "afk",
+        "name": "AFK"
+      },
+      {
+        "id": "altScanner",
+        "name": "Alt scanner"
+      },
+      {
+        "id": "book sorter",
+        "name": "Book sorter"
+      }
+    ],
+    "serverIPs": [
+      "proxy001.jartexsys.net",
+      "proxy002.jartexsys.net",
+      "proxy003.jartexsys.net",
+      "proxy004.jartexsys.net",
+      "proxy005.jartexsys.net",
+      "proxy006.jartexsys.net ",
+      "proxy007.jartexsys.net",
+      "mcgamer.zone",
+      "jartex.fun",
+      "play.jartexnetwork.net",
+      "play.jartexnetwork.com",
+      "top.jartex.fun"
+    ],
+    "defaultIP": "jartex.fun",
+    "versions": [
+      "1.8.9",
+      "1.9.4",
+      "1.10.2",
+      "1.11.2",
+      "1.12.2",
+      "1.13.2",
+      "1.14.4",
+      "1.15.2",
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19.3",
+      "1.20.4"
+    ]
+  },
+  "pikanetwork": {
+    "defaultIP": "play.pika-network.net",
+    "serverIPs": [
+      "play.pika-network.net",
+      "proxy001.pikasys.net",
+      "proxy002.pikasys.net",
+      "proxy003.pikasys.net",
+      "proxy004.pikasys.net"
+    ],
+    "gamemodes": {
+      "opfactions": {
+        "name": "OPFactions",
+        "aliases": [
+          "op factions"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "ranks": {
+          "pro": {
+            "name": "Pro",
+            "price": 20,
+            "color": "#FFFF55"
+          },
+          "hero": {
+            "name": "Hero",
+            "price": 50,
+            "color": "#FF55FF"
+          },
+          "lord": {
+            "name": "Lord",
+            "price": 100,
+            "color": "#55FFFF"
+          },
+          "legend": {
+            "name": "Legend",
+            "price": 150,
+            "color": "#55FF55"
+          },
+          "god": {
+            "name": "God",
+            "price": 250,
+            "color": "#AA00AA"
+          },
+          "immortal": {
+            "name": "Immortal",
+            "price": 400,
+            "color": "#FFAA00"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "scrolls": {
+            "name": "Scrolls",
+            "slot": 11,
+            "price": 45
+          },
+          "scrollsv2": {
+            "name": "ScrollsV2",
+            "slot": 12,
+            "price": 60
+          },
+          "spawners": {
+            "name": "Spawners",
+            "slot": 13,
+            "price": 65
+          },
+          "enchants": {
+            "name": "Enchants",
+            "slot": 14,
+            "price": 25
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 15,
+            "price": 0
+          },
+          "grinder": {
+            "name": "Grinder",
+            "slot": 16,
+            "price": 60
+          },
+          "axeman": {
+            "name": "Axeman",
+            "slot": 19,
+            "price": 35
+          },
+          "swordsman": {
+            "name": "Swordsman",
+            "slot": 20,
+            "price": 35
+          },
+          "special": {
+            "name": "Special",
+            "slot": 21,
+            "price": 65
+          },
+          "raider": {
+            "name": "Raider",
+            "slot": 22,
+            "price": 45
+          },
+          "prehistoric": {
+            "name": "Prehistoric",
+            "slot": 23,
+            "price": 0
+          },
+          "treasure": {
+            "name": "Treasure",
+            "slot": 24,
+            "price": 65
+          },
+          "marshal": {
+            "name": "Marshal",
+            "slot": 25,
+            "price": 50
+          },
+          "vanguardspecialset": {
+            "name": "Vanguard SpecialSet",
+            "slot": 28,
+            "price": 99
+          }
+        },
+        "kits": {
+          "starter": {
+            "name": "Starter Kit",
+            "slot": 11
+          },
+          "weekly": {
+            "name": "Weekly Kit",
+            "slot": 12
+          },
+          "tools": {
+            "name": "Tools Kit",
+            "slot": 13
+          },
+          "pro": {
+            "name": "Pro Kit",
+            "slot": 29
+          },
+          "hero": {
+            "name": "Hero Kit",
+            "slot": 30
+          },
+          "lord": {
+            "name": "Lord Kit",
+            "slot": 31
+          },
+          "legend": {
+            "name": "Legend Kit",
+            "slot": 32
+          },
+          "god": {
+            "name": "God Kit",
+            "slot": 33
+          },
+          "immortal": {
+            "name": "Immortal Kit",
+            "slot": 34
+          },
+          "eternal": {
+            "name": "Eternal Kit",
+            "slot": 35
+          },
+          "proonce": {
+            "name": "Pro Once Kit",
+            "slot": 38
+          },
+          "heroonce": {
+            "name": "Hero Once Kit",
+            "slot": 39
+          },
+          "lordonce": {
+            "name": "Lord Once Kit",
+            "slot": 40
+          },
+          "legendonce": {
+            "name": "Legend Once Kit",
+            "slot": 41
+          },
+          "godonce": {
+            "name": "God Once Kit",
+            "slot": 42
+          },
+          "immortalonce": {
+            "name": "Immortal Once Kit",
+            "slot": 43
+          },
+          "eternalonce": {
+            "name": "Eternal Once Kit",
+            "slot": 44
+          }
+        }
+      },
+      "opskyblock": {
+        "name": "OPSkyblock",
+        "aliases": [
+          "op skyblock"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.0",
+        "ranks": {
+          "skyvip": {
+            "name": "SkyVip",
+            "price": 10,
+            "color": "#FFFF55"
+          },
+          "skyhero": {
+            "name": "SkyHero",
+            "price": 25,
+            "color": "#FF55FF"
+          },
+          "skylord": {
+            "name": "SkyLord",
+            "price": 50,
+            "color": "#55FFFF"
+          },
+          "skylegend": {
+            "name": "SkyLegend",
+            "price": 75,
+            "color": "#55FF55"
+          },
+          "skygod": {
+            "name": "SkyGod",
+            "price": 125,
+            "color": "#AA00AA"
+          },
+          "skyking": {
+            "name": "SkyKing",
+            "price": 225,
+            "color": "#FFAA00"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "spawners": {
+            "name": "Spawners",
+            "slot": 11,
+            "price": 60
+          },
+          "enchants": {
+            "name": "Enchants",
+            "slot": 12,
+            "price": 25
+          },
+          "scrolls": {
+            "name": "Scrolls",
+            "slot": 13,
+            "price": 45
+          },
+          "tools": {
+            "name": "Tools",
+            "slot": 14,
+            "price": 10
+          },
+          "grinder": {
+            "name": "Grinder",
+            "slot": 15,
+            "price": 60
+          },
+          "mystery": {
+            "name": "Mystery",
+            "slot": 16,
+            "price": 70
+          },
+          "boosters": {
+            "name": "Boosters",
+            "slot": 19,
+            "price": 60
+          },
+          "axeman": {
+            "name": "Axeman",
+            "slot": 20,
+            "price": 45
+          },
+          "swordsman": {
+            "name": "SwordsMan",
+            "slot": 21,
+            "price": 45
+          },
+          "brawler": {
+            "name": "Brawler",
+            "slot": 22,
+            "price": 45
+          },
+          "treasure": {
+            "name": "Treasure",
+            "slot": 23,
+            "price": 70
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 24,
+            "price": 0
+          },
+          "halloween": {
+            "name": "Halloween",
+            "slot": 25,
+            "price": 0
+          },
+          "blackpearl": {
+            "name": "Black Pearl",
+            "slot": 28,
+            "price": 30
+          }
+        },
+        "kits": {}
+      },
+      "factions": {
+        "name": "Factions",
+        "aliases": [
+          "factions"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.20.4",
+        "ranks": {},
+        "gkits": {},
+        "kits": {}
+      },
+      "classicskyblock": {
+        "name": "Classic Skyblock",
+        "aliases": [
+          "classicalskyblock",
+          "classic skyblock",
+          "skyblock"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.20.4",
+        "ranks": {
+          "skyvip": {
+            "name": "SkyVip",
+            "price": 10,
+            "color": "#FF5555"
+          },
+          "skyhero": {
+            "name": "SkyHero",
+            "price": 25,
+            "color": "#FF5555"
+          },
+          "skylord": {
+            "name": "SkyLord",
+            "price": 50,
+            "color": "#FF5555"
+          },
+          "skylegend": {
+            "name": "SkyLegend",
+            "price": 75,
+            "color": "#FF5555"
+          },
+          "skygod": {
+            "name": "SkyGod",
+            "price": 125,
+            "color": "#FF5555"
+          },
+          "skyking": {
+            "name": "SkyKing",
+            "price": 225,
+            "color": "#FF5555"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "Keys",
+            "slot": 10,
+            "price": 0
+          },
+          "spawners": {
+            "name": "Spawners",
+            "slot": 11,
+            "price": 0
+          },
+          "scrolls": {
+            "name": "Scrolls",
+            "slot": 12,
+            "price": 0
+          },
+          "tools": {
+            "name": "Tools",
+            "slot": 13,
+            "price": 0
+          },
+          "mobeggs": {
+            "name": "Mob Eggs",
+            "slot": 14,
+            "price": 0
+          }
+        },
+        "kits": {
+          "allmembers": {
+            "name": "All Member Kits",
+            "slot": 10
+          },
+          "allskyvips": {
+            "name": "All SkyVIP Kits",
+            "slot": 11
+          },
+          "allskyheros": {
+            "name": "All SkyHero Kits",
+            "slot": 12
+          },
+          "allskylords": {
+            "name": "All SkyLord Kits",
+            "slot": 13
+          },
+          "allskylegends": {
+            "name": "All SkyLegend Kits",
+            "slot": 14
+          },
+          "allskygods": {
+            "name": "All SkyGod Kits",
+            "slot": 15
+          },
+          "allskykings": {
+            "name": "All SkyKing Kits",
+            "slot": 16
+          },
+          "allskymasters": {
+            "name": "All SkyMaster Kits",
+            "slot": 22
+          }
+        }
+      },
+      "opprison": {
+        "name": "opPrison",
+        "aliases": [
+          "op prison",
+          "prison"
+        ],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.9",
+        "ranks": {
+          "smuggler": {
+            "name": "Smuggler",
+            "price": 10,
+            "color": "#FFFF55"
+          },
+          "criminal": {
+            "name": "Criminal",
+            "price": 25,
+            "color": "#FF55FF"
+          },
+          "gangster": {
+            "name": "Gangster",
+            "price": 50,
+            "color": "#55FFFF"
+          },
+          "hitman": {
+            "name": "Hitman",
+            "price": 75,
+            "color": "#55FF55"
+          },
+          "captain": {
+            "name": "Captain",
+            "price": 125,
+            "color": "#AA00AA"
+          },
+          "boss": {
+            "name": "Boss",
+            "price": 225,
+            "color": "#FFAA00"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "scrolls": {
+            "name": "Scrolls",
+            "slot": 11,
+            "price": 45
+          },
+          "explosive": {
+            "name": "Explosive",
+            "slot": 12,
+            "price": 45
+          },
+          "mystery": {
+            "name": "Mystery",
+            "slot": 13,
+            "price": 60
+          },
+          "elf": {
+            "name": "Elf",
+            "slot": 14,
+            "price": 0
+          },
+          "boosters": {
+            "name": "Boosters",
+            "slot": 15,
+            "price": 60
+          },
+          "abandoned": {
+            "name": "Abandoned",
+            "slot": 16,
+            "price": 65
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 19,
+            "price": 0
+          },
+          "waiter": {
+            "name": "Waiter",
+            "slot": 20,
+            "price": 40
+          }
+        },
+        "kits": {
+          "starter": {
+            "name": "Starter Kit",
+            "slot": 11
+          },
+          "pvp": {
+            "name": "PvP Kit",
+            "slot": 12
+          },
+          "food": {
+            "name": "Food Kit",
+            "slot": 13
+          },
+          "smuggler": {
+            "name": "Smuggler Kit",
+            "slot": 29
+          },
+          "criminal": {
+            "name": "Criminal Kit",
+            "slot": 30
+          },
+          "gangster": {
+            "name": "Gangster Kit",
+            "slot": 31
+          },
+          "hitman": {
+            "name": "Hitman Kit",
+            "slot": 32
+          },
+          "captain": {
+            "name": "Captain Kit",
+            "slot": 33
+          },
+          "boss": {
+            "name": "Boss Kit",
+            "slot": 34
+          },
+          "godfather": {
+            "name": "Godfather Kit",
+            "slot": 35
+          },
+          "smuggleronce": {
+            "name": "Smuggler Once Kit",
+            "slot": 38
+          },
+          "criminalonce": {
+            "name": "Criminal Once Kit",
+            "slot": 39
+          },
+          "gangsteronce": {
+            "name": "Gangster Once Kit",
+            "slot": 40
+          },
+          "hitmanonce": {
+            "name": "Hitman Once Kit",
+            "slot": 41
+          },
+          "captainonce": {
+            "name": "Captain Once Kit",
+            "slot": 42
+          },
+          "bossonce": {
+            "name": "Boss Once Kit",
+            "slot": 43
+          },
+          "godfatheronce": {
+            "name": "Godfather Once Kit",
+            "slot": 44
+          }
+        }
+      },
+      "skypvp": {
+        "name": "SkyPvP",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.9",
+        "ranks": {
+          "hero": {
+            "name": "Hero",
+            "price": 10,
+            "color": "#FFFF55"
+          },
+          "prime": {
+            "name": "Prime",
+            "price": 25,
+            "color": "#AA00AA"
+          },
+          "delta": {
+            "name": "Delta",
+            "price": 50,
+            "color": "#00AAAA"
+          },
+          "arcane": {
+            "name": "Arcane",
+            "price": 100,
+            "color": "#FFAA00"
+          },
+          "sigma": {
+            "name": "Sigma",
+            "price": 150,
+            "color": "#AA0000"
+          }
+        },
+        "gkits": {},
+        "kits": {
+          "starter": {
+            "name": "Starter",
+            "slot": 12
+          },
+          "hero": {
+            "name": "Hero",
+            "slot": 21
+          },
+          "prime": {
+            "name": "Prime",
+            "slot": 22
+          },
+          "delta": {
+            "name": "Delta",
+            "slot": 23
+          },
+          "arcane": {
+            "name": "Arcane",
+            "slot": 24
+          },
+          "sigma": {
+            "name": "Sigma",
+            "slot": 25
+          }
+        }
+      },
+      "skymines": {
+        "name": "SkyMines",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.18.0",
+        "gkits": {},
+        "kits": {},
+        "ranks": {}
+      },
+      "lifesteal": {
+        "name": "Lifesteal",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": true
+        },
+        "minVersion": "1.18.0",
+        "gkits": {},
+        "kits": {},
+        "ranks": {}
+      },
+      "survival": {
+        "name": "Survival",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": true,
+          "resourcePack": false
+        },
+        "minVersion": "1.18.0",
+        "gkits": {},
+        "kits": {},
+        "ranks": {}
+      },
+      "bedwars": {
+        "name": "Bedwars",
+        "aliases": [],
+        "features": {
+          "gifting": false,
+          "tradeWithKeys": false,
+          "trading": false,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.9",
+        "gkits": {},
+        "kits": {},
+        "ranks": {}
+      },
+      "kitpvp": {
+        "name": "KitPvP",
+        "aliases": [],
+        "features": {
+          "gifting": true,
+          "tradeWithKeys": false,
+          "trading": false,
+          "resourcePack": false
+        },
+        "minVersion": "1.8.9",
+        "ranks": {
+          "vip": {
+            "name": "Vip",
+            "price": 10,
+            "color": "#FFFF55"
+          },
+          "god": {
+            "name": "God",
+            "price": 25,
+            "color": "#FF55FF"
+          },
+          "legend": {
+            "name": "Legend",
+            "price": 50,
+            "color": "#55FF55"
+          },
+          "ultimate": {
+            "name": "Ultimate",
+            "price": 100,
+            "color": "#55FFFF"
+          },
+          "baron": {
+            "name": "Baron",
+            "price": 150,
+            "color": "#FFAA00"
+          }
+        },
+        "gkits": {
+          "keys": {
+            "name": "Keys",
+            "slot": 10,
+            "price": 45
+          },
+          "boosters": {
+            "name": "Boosters",
+            "slot": 11,
+            "price": 60
+          },
+          "potions": {
+            "name": "Potions",
+            "slot": 12,
+            "price": 30
+          },
+          "christmas": {
+            "name": "Christmas",
+            "slot": 13,
+            "price": 0
+          },
+          "summer": {
+            "name": "Summer",
+            "slot": 14,
+            "price": 0
+          },
+          "mystery": {
+            "name": "Mystery",
+            "slot": 15,
+            "price": 65
+          },
+          "halloween": {
+            "name": "Halloween",
+            "slot": 16,
+            "price": 0
+          },
+          "winter": {
+            "name": "Winter",
+            "slot": 19,
+            "price": 0
+          },
+          "elderflame": {
+            "name": "Elderflame",
+            "slot": 20,
+            "price": 85
+          },
+          "tropical": {
+            "name": "Tropical",
+            "slot": 21,
+            "price": 0
+          }
+        },
+        "kits": {
+          "knight": {
+            "name": "Knight Kit",
+            "slot": 11
+          },
+          "archer": {
+            "name": "Archer Kit",
+            "slot": 12
+          },
+          "viking": {
+            "name": "Viking Kit",
+            "slot": 13
+          },
+          "pyro": {
+            "name": "Pyro Kit",
+            "slot": 14
+          },
+          "orc": {
+            "name": "Orc Kit",
+            "slot": 15
+          },
+          "ninja": {
+            "name": "Ninja Kit",
+            "slot": 16
+          },
+          "weekly": {
+            "name": "Weekly Kit",
+            "slot": 20
+          },
+          "monthly": {
+            "name": "Monthly Kit",
+            "slot": 21
+          },
+          "prestige": {
+            "name": "Prestige Kit",
+            "slot": 22
+          },
+          "vip": {
+            "name": "Vip Kit",
+            "slot": 29
+          },
+          "god": {
+            "name": "God Kit",
+            "slot": 30
+          },
+          "legend": {
+            "name": "Legend Kit",
+            "slot": 31
+          },
+          "ultimate": {
+            "name": "Ultimate Kit",
+            "slot": 32
+          },
+          "baron": {
+            "name": "Baron Kit",
+            "slot": 33
+          },
+          "omega": {
+            "name": "Omega Kit",
+            "slot": 34
+          }
+        }
+      }
+    },
+    "id": "pikanetwork",
+    "scripts": [],
+    "versions": [
+      "1.8.9",
+      "1.9.4",
+      "1.10.2",
+      "1.11.2",
+      "1.12.2",
+      "1.13.2",
+      "1.14.4",
+      "1.15.2",
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19.3",
+      "1.20.4"
+    ]
+  }
+}
