@@ -1,6 +1,6 @@
 {
-  "appVersion": "2.1.1",
-  "updated": 1743691316194,
-  "checksum": "cb102f6110b5fcd55a01fd1308e678b9b62bd4e9ab57e198d1502b55c111e14c",
-  "description": "test"
+  "appVersion": "2.1.2",
+  "updated": 1743793797767,
+  "checksum": "661b88ab42c3c5ea75387b5afcc5d41b3200ecdb41a8cd8f21263016159f587a",
+  "description": "Fixed new kitpvp key trading system"
 }
