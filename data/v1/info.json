@@ -1,6 +1,6 @@
 {
   "appVersion": "2.1.2",
-  "updated": 1743793890062,
-  "checksum": "661b88ab42c3c5ea75387b5afcc5d41b3200ecdb41a8cd8f21263016159f587a",
-  "description": "Fixed new pika kitpvp key trading system"
+  "updated": 1743802518647,
+  "checksum": "23edc071661ac082521b306e169d7b299c5b2336d94746b0644eb61d9e06442f",
+  "description": "Fixed gkit collector auto trader. If the update fails, open jnbot as administrator."
 }
