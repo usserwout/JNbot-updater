@@ -1,6 +1,6 @@
 {
   "appVersion": "2.1.2",
-  "updated": 1743802518647,
-  "checksum": "23edc071661ac082521b306e169d7b299c5b2336d94746b0644eb61d9e06442f",
-  "description": "Fixed gkit collector auto trader. If the update fails, open jnbot as administrator."
+  "updated": 1744448373286,
+  "checksum": "297786ef84a37205f50a4a1f404e082bd9f634a9a9ef7dfe3a129cf7207e3a69",
+  "description": "Fixed gkit collector (prison), fixed booksorter. If update fails, open app in administrator"
 }
