@@ -1,6 +1,6 @@
 {
   "appVersion": "2.1.2",
-  "updated": 1744448402159,
-  "checksum": "297786ef84a37205f50a4a1f404e082bd9f634a9a9ef7dfe3a129cf7207e3a69",
+  "updated": 1744448603919,
+  "checksum": "35321c790fc30eee71eb9c0231703a84eea3753240f20bf9557802aab9a03f1e",
   "description": "Fixed gkit collector (prison), fixed booksorter. If update fails, open app in administrator"
 }
