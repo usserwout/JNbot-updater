@@ -1,6 +1,6 @@
 {
   "appVersion": "2.1.3",
-  "updated": 1745085987053,
-  "checksum": "8f78320d64006b5041ad4711733dc6b4a4b16e3eba2408dcafe08f07ae229c82",
-  "description": "Fixed gkit upgrader (jartex prison) and kit collector can collect extra kits (pika OP factions)"
+  "updated": 1745098966639,
+  "checksum": "5c1578ebb402915895ec60594a5d669f714bbdd56151e0ebeb2804de0ffd3a51",
+  "description": "Fixed small issue with kit collector"
 }
