@@ -1,6 +1,6 @@
 {
-  "appVersion": "2.1.3",
-  "updated": 1745161605741,
-  "checksum": "c7b0fb9d23fc2ef9a26a885f6c0142e17d245b6c6b9f4873c5c038e513b648cb",
-  "description": "Fixed kit collector getting stuck while trashing items"
+  "appVersion": "2.2.0",
+  "updated": 1749337308923,
+  "checksum": "ae8dbd0fbf158ccab086736fbca9e53640878de66dd26e1c3fb968083fca54e7",
+  "description": "Fixed not being able to join OP factions"
 }
