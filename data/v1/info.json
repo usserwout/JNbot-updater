@@ -1,6 +1,6 @@
 {
   "appVersion": "2.2.0",
-  "updated": 1749337308923,
-  "checksum": "ae8dbd0fbf158ccab086736fbca9e53640878de66dd26e1c3fb968083fca54e7",
-  "description": "Fixed not being able to join OP factions"
+  "updated": 1750193867732,
+  "checksum": "31f38717b844eb1bbff9ff0763ccdf19802feb5e23836818a724bbd64d25a0ef",
+  "description": "Fixed issues joining certain gamemodes"
 }
