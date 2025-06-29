@@ -1,6 +1,6 @@
 {
-  "appVersion": "2.2.0",
-  "updated": 1750193867732,
-  "checksum": "31f38717b844eb1bbff9ff0763ccdf19802feb5e23836818a724bbd64d25a0ef",
-  "description": "Fixed issues joining certain gamemodes"
+  "appVersion": "2.3.1",
+  "updated": 1751215096574,
+  "checksum": "eb1df1f8a5f8ec008260db23666cdf8f793c42889a010d3939d2b5cdf2bb027c",
+  "description": "Prompt user for information (instead of error) when option value is absent"
 }
