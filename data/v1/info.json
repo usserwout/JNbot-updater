@@ -1,6 +1,6 @@
 {
   "appVersion": "2.3.3",
   "updated": 1752395875374,
-  "checksum": "d610d2364ef9146cfc1ff4d71350b66a99a6e962404f96f65722aa42503ea15b",
+  "checksum": "6376be3085354de85fc3340fddb51ce49c626a72b560a941f24a6425d6b5a413",
   "description": "Fixed issue where bot tries to trade untradable pickaxe"
 }
