@@ -1,6 +1,6 @@
 {
-  "appVersion": "2.3.1",
-  "updated": 1751215096574,
-  "checksum": "eb1df1f8a5f8ec008260db23666cdf8f793c42889a010d3939d2b5cdf2bb027c",
-  "description": "Prompt user for information (instead of error) when option value is absent"
+  "appVersion": "2.3.3",
+  "updated": 1752395875374,
+  "checksum": "d610d2364ef9146cfc1ff4d71350b66a99a6e962404f96f65722aa42503ea15b",
+  "description": "Fixed issue where bot tries to trade untradable pickaxe"
 }
