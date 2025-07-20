@@ -1,7 +1,6 @@
 {
-
   "appVersion": "2.4.0",
-  "updated": 1753032016701,
+  "updated": 1753032159412,
   "checksum": "709d42b8117e70ee6c3764b8c9456ba1f311bb3fd45ef6409b355c11f2446893",
   "description": "Fixed issue not going to the next gkit page"
 }
