@@ -200,7 +200,7 @@
         "summer": 0,
         "christmas": 0,
         "santa": 0,
-        "new years": 0, 
+        "new years": 0,
         "medalist": 0
       }
     },
@@ -313,8 +313,8 @@
         "christmas": 60,
         "autumn": 80,
         "beach": 30,
-        "easter":45,
-        "boosters":45,
+        "easter": 45,
+        "boosters": 45,
         "valentine": 30
       }
     },
@@ -550,24 +550,28 @@
     "opprison": {
       "ranks": {
         "smuggler": {
-          "price": 10
+          "price": 10,
+          "color": "#00AA00"
         },
         "criminal": {
-          "price": 25
+          "price": 25,
+          "color": "#55FFFF"
         },
         "gangster": {
           "price": 50,
-          "color": "#55FF55"
+          "color": "#ed5053"
         },
         "hitman": {
-          "price": 75
+          "price": 75,
+          "color": "#AA0000"
         },
         "captain": {
           "price": 125,
-          "color": "#55FF55"
+          "color": "#FFFF55"
         },
         "boss": {
-          "price": 225
+          "price": 225,
+          "color": "#FFFF55"
         }
       },
       "gkits": {
@@ -768,8 +772,8 @@
         "ores": 20,
         "ores plus": 60,
         "enchants": 50,
-        "scrolls":20,
-        "boosters":75,
+        "scrolls": 20,
+        "boosters": 75,
         "mob": 40
       }
     },
@@ -821,12 +825,352 @@
           "price": 50,
           "color": "#55FF55"
         },
-        "baron": {  
+        "baron": {
           "price": 100,
           "color": "#FF5555"
         }
       },
-      "gkits":{}
+      "gkits": {}
     }
-  }
+  },
+
+  "jartexnetworkData": {
+    "kitGamemodes": [
+      "SkyblockDream",
+      "SkyblockFantasy",
+      "Factions Immortal",
+      "Prison",
+      "Survival",
+      "KitPvP",
+      "Lifesteal",
+      "The bridge"
+    ],
+    "gamemodes": [
+      "SkyblockDream",
+      "Factions Immortal",
+      "Prison",
+      "Survival",
+      "KitPvP",
+      "Lifesteal",
+      "Oneblock",
+      "Gens"
+    ],
+    "defaultGamemode": "SkyblockDream"
+  },
+  "pikanetworkData": {
+    "gamemodes": [
+      "OP Factions",
+      "OP Skyblock",
+      "OP Prison",
+      "Classic SkyBlock",
+      "KitPvP",
+      "Survival",
+      "SkyPvP",
+      "SkyMines",
+      "PracticePvP",
+      "OP Lifesteal",
+      "GenPvP",
+      "Dungeons"
+    ],
+    "kitGamemodes": [
+      "OP Factions",
+      "Skyblock",
+      "OP Skyblock",
+      "OP Prison",
+      "Survival",
+      "SkyPvP",
+      "OP Lifesteal",
+      "SkyMines",
+      "GenPvP"
+    ],
+    "defaultGamemode": "OP Skyblock"
+  },
+
+  "versions": [
+    "1.8.9",
+    "1.9.4",
+    "1.10.2",
+    "1.11.2",
+    "1.12.2",
+    "1.13.2",
+    "1.14.4",
+    "1.15.2",
+    "1.16.5",
+    "1.17.1",
+    "1.18.2",
+    "1.19.4",
+    "1.20.4"
+  ],
+  "fullVersions": [
+    {
+      "value": "1.8",
+      "label": "1.8",
+      "children": [
+        {
+          "value": "1.8.9",
+          "label": "1.8.9"
+        }
+      ]
+    },
+    {
+      "value": "1.9",
+      "label": "1.9",
+      "children": [
+        {
+          "value": "1.9",
+          "label": "1.9"
+        },
+        {
+          "value": "1.9.1-pre2",
+          "label": "1.9.1-pre2"
+        },
+        {
+          "value": "1.9.2",
+          "label": "1.9.2"
+        },
+        {
+          "value": "1.9.4",
+          "label": "1.9.4"
+        }
+      ]
+    },
+    {
+      "value": "1.10",
+      "label": "1.10",
+      "children": [
+        {
+          "value": "1.10",
+          "label": "1.10"
+        },
+        {
+          "value": "1.10-pre1",
+          "label": "1.10-pre1"
+        },
+        {
+          "value": "1.10.1",
+          "label": "1.10.1"
+        },
+        {
+          "value": "1.10.2",
+          "label": "1.10.2"
+        }
+      ]
+    },
+    {
+      "value": "1.11",
+      "label": "1.11",
+      "children": [
+        {
+          "value": "1.11",
+          "label": "1.11"
+        },
+        {
+          "value": "1.11.2",
+          "label": "1.11.2"
+        }
+      ]
+    },
+    {
+      "value": "1.12",
+      "label": "1.12",
+      "children": [
+        {
+          "value": "1.12",
+          "label": "1.12"
+        },
+        {
+          "value": "1.12-pre4",
+          "label": "1.12-pre4"
+        },
+        {
+          "value": "1.12.1",
+          "label": "1.12.1"
+        },
+        {
+          "value": "1.12.2",
+          "label": "1.12.2"
+        }
+      ]
+    },
+    {
+      "value": "1.13",
+      "label": "1.13",
+      "children": [
+        {
+          "value": "1.13",
+          "label": "1.13"
+        },
+        {
+          "value": "1.13.1",
+          "label": "1.13.1"
+        },
+        {
+          "value": "1.13.2",
+          "label": "1.13.2"
+        },
+        {
+          "value": "1.13.2-pre1",
+          "label": "1.13.2-pre1"
+        },
+        {
+          "value": "1.13.2-pre2",
+          "label": "1.13.2-pre2"
+        }
+      ]
+    },
+    {
+      "value": "1.14",
+      "label": "1.14",
+      "children": [
+        {
+          "value": "1.14",
+          "label": "1.14"
+        },
+        {
+          "value": "1.14.1",
+          "label": "1.14.1"
+        },
+        {
+          "value": "1.14.3",
+          "label": "1.14.3"
+        },
+        {
+          "value": "1.14.4",
+          "label": "1.14.4"
+        }
+      ]
+    },
+    {
+      "value": "1.15",
+      "label": "1.15",
+      "children": [
+        {
+          "value": "1.15",
+          "label": "1.15"
+        },
+        {
+          "value": "1.15.1",
+          "label": "1.15.1"
+        },
+        {
+          "value": "1.15.2",
+          "label": "1.15.2"
+        }
+      ]
+    },
+    {
+      "value": "1.16",
+      "label": "1.16",
+      "children": [
+        {
+          "value": "1.16",
+          "label": "1.16"
+        },
+        {
+          "value": "1.16-rc1",
+          "label": "1.16-rc1"
+        },
+        {
+          "value": "1.16.1",
+          "label": "1.16.1"
+        },
+        {
+          "value": "1.16.2",
+          "label": "1.16.2"
+        },
+        {
+          "value": "1.16.3",
+          "label": "1.16.3"
+        },
+        {
+          "value": "1.16.4",
+          "label": "1.16.4"
+        },
+        {
+          "value": "1.16.5",
+          "label": "1.16.5"
+        }
+      ]
+    },
+    {
+      "value": "1.17",
+      "label": "1.17",
+      "children": [
+        {
+          "value": "1.17",
+          "label": "1.17"
+        },
+        {
+          "value": "1.17.1",
+          "label": "1.17.1"
+        }
+      ]
+    },
+    {
+      "value": "1.18",
+      "label": "1.18",
+      "children": [
+        {
+          "value": "1.18",
+          "label": "1.18"
+        },
+        {
+          "value": "1.18.1",
+          "label": "1.18.1"
+        },
+        {
+          "value": "1.18.2",
+          "label": "1.18.2"
+        }
+      ]
+    },
+    {
+      "value": "1.19",
+      "label": "1.19",
+      "children": [
+        {
+          "value": "1.19",
+          "label": "1.19"
+        },
+        {
+          "value": "1.19.2",
+          "label": "1.19.2"
+        },
+        {
+          "value": "1.19.3",
+          "label": "1.19.3"
+        },
+        {
+          "value": "1.19.4",
+          "label": "1.19.4"
+        }
+      ]
+    },
+    {
+      "value": "1.20",
+      "label": "1.20",
+      "children": [
+        {
+          "value": "1.20",
+          "label": "1.20"
+        },
+        {
+          "value": "1.20.1",
+          "label": "1.20.1"
+        },
+        {
+          "value": "1.20.2",
+          "label": "1.20.2"
+        },
+        {
+          "value": "1.20.3",
+          "label": "1.20.3"
+        },
+        {
+          "value": "1.20.4",
+          "label": "1.20.4"
+        }
+      ]
+    }
+  ]
 }
