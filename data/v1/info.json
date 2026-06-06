@@ -1,6 +1,6 @@
 {
   "appVersion": "2.7.0",
-  "updated": 1780773953578,
+  "updated": 1780774576340,
   "checksum": "00815c950981427bede4843190923b2493ed90789fefe3965b4fb3a74545f23c",
-  "description": "Fixed gkit collector getting stuck at prison"
+  "description": "Fixed prison gkit collector"
 }
