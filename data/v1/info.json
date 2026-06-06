@@ -1,6 +1,6 @@
 {
   "appVersion": "2.7.0",
-  "updated": 1777380617501,
-  "checksum": "ea18c6f9f7a45ca1a1be975b4f0ac26f09fda9e5fa1807e562233a7b4332e28e",
-  "description": "Fixed booksorter"
+  "updated": 1780773953578,
+  "checksum": "00815c950981427bede4843190923b2493ed90789fefe3965b4fb3a74545f23c",
+  "description": "Fixed gkit collector getting stuck at prison"
 }
