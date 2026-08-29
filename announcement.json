@@ -1,5 +1,15 @@
 {
   "current": {
-    
+    "id": "android-closed-test-2026-08",
+    "title": "Try out the new JNbot app for Android!",
+    "body": "JNbot for android is currently in closed testing. We are looking for at least 12 android testers. If you are interested, DM me (usserwout) your email on discord and I'll add give you the Play Store invite!",
+    "actions": [
+      {
+        "label": "Join Discord",
+        "url": "https://discord.gg/JNbGgypERe"
+      }
+    ],
+    "startsAt": "2026-08-27T12:00:00Z",
+    "expiresAt": "2026-09-15T12:00:00Z"
   }
 }
