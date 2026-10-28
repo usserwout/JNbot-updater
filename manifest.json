@@ -1,0 +1,34 @@
+{
+  "versions": {
+    "1.21.11": {
+      "version": "0.1.1",
+      "filename": "jnbot-fabric-0.1.1+1.21.11.jar",
+      "sha1": "d01a608dc5fbb9bc415fc499cb7d5667379627c1",
+      "libraries": [
+        {
+          "filename": "fabric-api-0.141.6+1.21.11.jar",
+          "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+          "hashes": {
+            "sha1": "c98467cbbaf4d197377266795ae015f4130d65b6"
+          },
+          "destination": "libraries/net/fabricmc/fabric-api/1.21.11"
+        }
+      ]
+    },
+    "26.3": {
+      "version": "0.1.1",
+      "filename": "jnbot-fabric-0.1.1+26.3.jar",
+      "sha1": "af56fd717f88da07f0fcd739b20cfe10b6afd71e",
+      "libraries": [
+        {
+          "filename": "fabric-api-0.165.0+26.3.jar",
+          "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/EQKgpeKu/fabric-api-0.165.0%2B26.3.jar",
+          "hashes": {
+            "sha1": "8f8a23d6c9fbf7b075b31b4fb0a1007b0488d1d2"
+          },
+          "destination": "libraries/net/fabricmc/fabric-api/26.3"
+        }
+      ]
+    }
+  }
+}
