@@ -1,9 +1,9 @@
 {
   "versions": {
     "1.21.11": {
-      "version": "0.1.1",
-      "filename": "jnbot-fabric-0.1.1+1.21.11.jar",
-      "sha1": "d01a608dc5fbb9bc415fc499cb7d5667379627c1",
+      "version": "0.1.2",
+      "filename": "jnbot-fabric-0.1.2+1.21.11.jar",
+      "sha1": "86c008f29853d6052414db67e17ffa4ec6f3f14d",
       "libraries": [
         {
           "filename": "fabric-api-0.141.6+1.21.11.jar",
@@ -16,9 +16,9 @@
       ]
     },
     "26.3": {
-      "version": "0.1.1",
-      "filename": "jnbot-fabric-0.1.1+26.3.jar",
-      "sha1": "af56fd717f88da07f0fcd739b20cfe10b6afd71e",
+      "version": "0.1.2",
+      "filename": "jnbot-fabric-0.1.2+26.3.jar",
+      "sha1": "855b9bdb2104587ef48f53164d3a897c3a34ffc9",
       "libraries": [
         {
           "filename": "fabric-api-0.165.0+26.3.jar",
